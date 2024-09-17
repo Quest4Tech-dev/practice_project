@@ -117,21 +117,47 @@ quote .p2{
     margin-right: 50px;;
 }
 call_action{
-    padding:50px 30px 50px 70px;
+    /* padding:50px 30px 50px 70px; */
 }
 call_action .ac_contents{
     background-color:#3882F6;
     display: flex;
     gap:20px;
+    height: 150px;
+    margin:0 50px 0 180px;
+    padding: 0 50px 0 20px;
+    border-radius: 15px;
     /* justify-content: space-between; */
 }
 call_action .ac_contents .actexts{
 flex:1;
-text-align: right;
+text-align: left;
 color: #E5E7EB;
+margin-left: 80px;
+margin-top: 50px;
+}
+call_action .ac_contents .actexts h2{
+    font-size: 30px;
+}
+.actexts p{
+    font-size: 20px;
 }
 call_action .ac_contents .ac_buttons button{
     flex:1;
     border: #E5E7EB;
     color: #E5E7EB;
+    text-align: right;
+    margin-right: 250px;
+    margin-top:55px ;
+    border:2px solid white;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+footer{
+    padding:50px;
+    text-align: center;
+    background-color:#1F2937 ;
+    color: #E5E7EB;
+    font-size: 20px;
+    margin-top: 70px;
 }
